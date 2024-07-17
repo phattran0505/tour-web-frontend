@@ -1,0 +1,69 @@
+.booking {
+  padding: 20px;
+  border: 1px solid rgba(229, 231, 235);
+  border-radius: 10px;
+  position: sticky;
+  top: 80px;
+}
+.booking-top {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(229, 231, 235);
+}
+.booking-top h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.booking-top h3 span {
+  margin-left: 3px;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--text-color);
+}
+.booking-top .booking-rate {
+  font-size: 0.8rem;
+}
+.booking-top .booking-rate span {
+  color: var(--text-color);
+  font-weight: 600;
+}
+.booking-form {
+  margin-top: 20px;
+}
+.booking-form .booking-info {
+  border: 1px solid rgba(229, 231, 235);
+  padding: 1rem;
+}
+.booking-form .booking-info input {
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 10px 3px;
+  font-size: 0.8rem;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgba(229, 231, 235);
+}
+.booking-bottom li {
+  border: none;
+  margin: 5px 0;
+  /* margin-top: 10px; */
+  padding: 0;
+}
+.booking-bottom h5,
+.booking-bottom span {
+  font-size: 0.9rem;
+  color: var(--text-color);
+}
+.booking-bottom ul{
+  margin: 1.5rem 0;
+}
+.total h5,
+.total span {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--heading-color);
+}
+.booking-bottom .booking-btn {
+  width: 100%;
+  border-radius: 20px;
+  padding: 8px 0 !important;
+}

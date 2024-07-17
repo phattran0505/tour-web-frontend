@@ -1,0 +1,15 @@
+.thank-you span {
+    font-size: 3.2rem;
+    color: var(--secondary-color);
+}
+.thank-you h1 {
+    font-size: 2.8rem;
+    font-family: var(--subtitle-font-name);
+}
+.thank-you h3 {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.thank-you .thanks-btn  {
+    border-radius: 20px;
+}

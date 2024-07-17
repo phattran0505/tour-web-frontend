@@ -1,0 +1,36 @@
+.footer {
+    padding: 50px 0;
+}
+.logo-footer img {
+    width: 50%;
+}
+.logo-footer p {
+    font-size: .9rem;
+    margin: .7rem 0;
+    color: var(--text-color);
+}
+.footer h5 {
+    font-size: 1.1rem;
+}
+.social-links span {
+    margin-right: 20px;
+}
+.social-links span a {
+    text-decoration: none;
+    color: var(--heading-color);
+}
+.footer-links a {
+    font-size: .9rem;
+    text-decoration: none;
+    color: var(--text-color);
+}
+.footer-links h6 {
+    font-size: .9rem;
+}
+
+.copyright {
+    margin-top: 2.5rem;
+    font-size: 1rem;
+    color: var(--text-color);
+    text-align: center;
+}
