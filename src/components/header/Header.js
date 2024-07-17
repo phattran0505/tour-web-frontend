@@ -9,7 +9,6 @@ import "./Header.css";
 function Header() {
   const headerRef = useRef(null);
   const { user, dispatch } = useContext(AuthContext);
-  console.log(user);
   const navigate = useNavigate();
   const logout = () => {
     dispatch({ type: "LOGOUT" });

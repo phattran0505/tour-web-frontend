@@ -10,7 +10,6 @@ import "./SearchResultList.css";
 function SearchResultList() {
   const location = useLocation();
   const [data] = useState(location.state);
-  console.log(data);
   return (
     <>
       <CommonSection title="Tour search result"></CommonSection>

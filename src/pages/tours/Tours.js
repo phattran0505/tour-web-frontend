@@ -25,7 +25,6 @@ function Tours() {
     window.scrollTo(0, 0);
   }, [page, tourCount, tours]);
   
-  console.log(pageCount);
   return (
     <>
       <CommonSection title="All tours" />

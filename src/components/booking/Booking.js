@@ -24,7 +24,7 @@ function Booking({ tour }) {
   };
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(booking);
+    
     if (!user || user === "user" || user === undefined){
       alert ("please sign in")
     }
@@ -39,7 +39,6 @@ function Booking({ tour }) {
       })
       const result = await res.json()
       if(!res.ok)  return alert (result.message)
-      console.log(result);
       // navigate('/thank-you')
     } catch (error) {
       alert(error.message)
